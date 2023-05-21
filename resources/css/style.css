@@ -13,7 +13,7 @@ html {
 
 *::selection {
     background: #A80534;
-    color: #ececec;
+    color: #f5f5f5;
 }
 
 header {
@@ -150,24 +150,23 @@ header {
 
 .img-card2 {
     margin-top: 40px;
-    margin-right: 10px;
+    margin-right: 50px;
     position: relative;
 }
 
 .img-card3 {
-    margin-top: 55px;
-    margin-left: 40px;
+    margin-top: 70px;
+    /* margin-left: 35px; */
     position: relative;
 }
 
 .img-card4 {
-    margin-right: 45px;
+    margin-right: 65px;
     position: relative;
     margin-top: 75px;
 }
 
 .img-card5 {
-    margin-left: 50px;
     margin-top: 95px;
     position: relative;
 }
@@ -286,7 +285,7 @@ header {
     padding: 10px 35px;
     margin-top: 80px;
     background-color: #252525;
-    color: #ececec;
+    color: #f5f5f5;
     border-radius: 25px;
     cursor: pointer;
     transition: 0.3s ease 0s;
@@ -296,7 +295,7 @@ header {
 
 .btn-seemore a {
     text-decoration: none;
-    color: #ececec;
+    color: #f5f5f5;
 }
 
 .btn-seemore button:hover {
@@ -315,21 +314,26 @@ header {
     justify-content: space-around;
 }
 
+.local {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 #visitus {
-    background-color: #A80534;
+    background-color: #252525;
     padding-top: 1px;
     margin-top: 70px;
 }
 
 .title-visit {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     color: #f5f5f5;
+    margin-top: 50px;
+    margin-left: 25px;
     margin-top: 25px;
-}
-
-
-.title-visit::selection {
-    background-color: #252525;
 }
 
 .hours h3 {
@@ -337,9 +341,7 @@ header {
 }
 
 .hours .p1 {
-    display: flex;
-    margin-top: 8px;
-
+    margin-top: 5px;
     font-size: 20px;
     font-weight: 500;
     color: #f5f5f5;
@@ -347,48 +349,103 @@ header {
 }
 
 .hours .p2 {
-    display: flex;
-    margin-top: 8px;
     font-size: 17px;
     font-weight: 400;
     color: #f5f5f5;
-}
+    margin-top: -18px;
 
-.hours p::selection {
-    background-color: #252525;
 }
 
 svg {
-    margin-top: 8px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 6px;
+    margin-right: 6px;
     color: #f5f5f5;
 }
 
 .info-hours1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-top: -220px;
+    margin-right: 450px;
 }
 
 .info-hours2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-right: 582px;
 }
 
 .info-hours3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-right: 707px;
+    margin-bottom: 30px;
 }
 
 .infos {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     background-color: #252525;
 }
 
-hr{
-    width: 800px;
-    
+.img-logo {
+    margin-right: 1100px;
+    margin-top: 120px;
+    color: #252525;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    color: #252525;
+    background-color: #f5f5f5;
+}
+
+footer h6 {
+    color: #A80534;
+}
+
+#footer_content {
+    font-size: 17px;
+}
+
+#footer_content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 50px;
+}
+
+#footer_social_media {
+    display: flex;
+}
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: -50px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 2fr);
+        gap: 2rem;
+    }
+
+    #footer_content img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 2fr);
+        padding: 3rem 2rem;
+    }
+
+    #footer_content img {
+        display: none;
+    }
 }
