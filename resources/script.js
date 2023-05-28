@@ -1,13 +1,12 @@
 function openMenu() {
-    var menu = document.getElementsByClassName('.nav_links2');
-
-    if (menu.display === "block") {
-        menu.style.display = "none";
-
+    itens.style.display = 'block'
+    if (itens.style.display == 'block') {
+        itens.style.display = 'none'
     } else {
-        menu.style.display = "block";
+        itens.style.display = 'block'
     }
 }
+
 
 // botao de voltar pro topo
 window.onscroll = function () {
@@ -28,4 +27,5 @@ function scrollToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-// 
+//
+

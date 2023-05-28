@@ -159,7 +159,6 @@ header {
 
 .img-card3 {
     margin-top: 70px;
-    /* margin-left: 35px; */
     position: relative;
 }
 
@@ -464,33 +463,6 @@ footer h6 {
 }
 
 
-.menu-toggle {
-    display: none;
-}
-
-.menu-toggle input {
-    display: none;
-}
-
-.menu-toggle span {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin-bottom: 5px;
-}
-
-.nav-links2 {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-links2 li {
-    margin-left: 10px;
-}
 
 .nav1 {
     margin-left: 10%;
@@ -510,8 +482,24 @@ footer h6 {
     opacity: 0.9;
 }
 
+menu {
+    display: none;
+}
+
+#burger {
+    display: none;
+    cursor: pointer;
+}
+
+
 
 @media screen and (max-width: 780px) {
+   
+
+    #burger {
+        display: block;
+    }
+
     #footer-content {
         grid-template-columns: repeat(1, 2fr);
         padding: 3rem 2rem;
@@ -560,32 +548,6 @@ footer h6 {
 
     .cta {
         display: none;
-    }
-
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-    }
-
-    .nav-links2 {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #f2f2f2;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .menu-toggle input:checked~.nav-links2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu-toggle input:checked~.nav-links2 li {
-        margin-left: 0;
-        margin-bottom: 10px;
     }
 
     .banner {
@@ -674,6 +636,7 @@ footer h6 {
 }
 
 @media screen and (max-width: 840px) {
+
 
     .card-text {
         text-align: end;
@@ -810,32 +773,6 @@ footer h6 {
 
     .cta {
         display: none;
-    }
-
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-    }
-
-    .nav-links2 {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background-color: #f2f2f2;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .menu-toggle input:checked~.nav-links2 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .menu-toggle input:checked~.nav-links2 li {
-        margin-left: 0;
-        margin-bottom: 10px;
     }
 
     .banner {
