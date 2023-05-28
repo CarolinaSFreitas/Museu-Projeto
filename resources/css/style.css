@@ -504,7 +504,7 @@ menu li {
     cursor: pointer;
     position: absolute;
     top: 20px;
-    right: 10px;
+    right: 20px;
     z-index: 9999;
 }
 
@@ -645,12 +645,12 @@ menu li {
         margin-right: 0px;
 
     }
-
-
 }
 
 @media screen and (max-width: 840px) {
-
+    #burger {
+        display: block;
+    }
 
     .card-text {
         text-align: end;
