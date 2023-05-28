@@ -506,8 +506,6 @@ footer h6 {
         display: none;
     }
 
-
-
     .hours .infos .img-logo {
         margin: 0;
         display: none;
@@ -658,7 +656,6 @@ footer h6 {
     }
 }
 
-
 @media screen and (max-width: 840px) {
     .about-mnba h2 {
         margin-top: 10px;
@@ -735,7 +732,6 @@ footer h6 {
         margin-top: -40px;
         margin-bottom: -30px;
         margin-right: 0px;
-
     }
 
     .hours .infos .img-logo {
@@ -788,7 +784,6 @@ footer h6 {
     .cta {
         display: none;
     }
-
 
     .menu-toggle {
         display: block;
