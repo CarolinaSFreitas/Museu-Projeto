@@ -504,7 +504,7 @@ menu li {
     cursor: pointer;
     position: absolute;
     top: 20px;
-    right: 5px;
+    right: 10px;
     z-index: 9999;
 }
 
