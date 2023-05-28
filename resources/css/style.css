@@ -496,6 +496,21 @@ footer h6 {
     margin-left: 10%;
 }
 
+#btnTopo {
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+    display: none;
+    border: none;
+    background-color: transparent;
+    transition: 0.3s ease 0s;
+}
+
+#btnTopo:hover {
+    opacity: 0.9;
+}
+
+
 @media screen and (max-width: 780px) {
     #footer-content {
         grid-template-columns: repeat(1, 2fr);
@@ -654,9 +669,21 @@ footer h6 {
         margin-right: 0px;
 
     }
+
+
 }
 
 @media screen and (max-width: 840px) {
+
+    .card-text {
+        text-align: end;
+        margin-left: 5px;
+    }
+
+    .card-title {
+        text-align: end;
+    }
+
     .about-mnba h2 {
         margin-top: 10px;
     }
