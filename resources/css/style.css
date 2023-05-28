@@ -484,18 +484,33 @@ footer h6 {
 
 menu {
     display: none;
+    width: 38%;
+    top: 25px;
+    z-index: 1000;
+}
+
+menu a {
+    color: #A80534;
+    text-decoration: none;
+}
+
+menu li {
+    list-style: none;
+
 }
 
 #burger {
     display: none;
     cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    z-index: 9999;
 }
 
 
 
 @media screen and (max-width: 780px) {
-   
-
     #burger {
         display: block;
     }

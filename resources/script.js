@@ -1,12 +1,18 @@
 function openMenu() {
-    itens.style.display = 'block'
-    if (itens.style.display == 'block') {
-        itens.style.display = 'none'
+    var burger = document.getElementById("burger");
+    var itens = document.getElementById("itens");
+    
+    if (itens.style.display === 'block') {
+      itens.style.display = 'none';
+      burger.style.display = 'block';
+      
     } else {
-        itens.style.display = 'block'
+      itens.style.display = 'block';
+     
     }
-}
-
+  }
+  
+  
 
 // botao de voltar pro topo
 window.onscroll = function () {
