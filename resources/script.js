@@ -1,14 +1,5 @@
 function openMenu() {
-    var burger = document.getElementById("burger");
-    var itens = document.getElementById("itens");
-
-    if (itens.style.display === 'block') {
-        itens.style.display = 'none';
-        burger.style.display = 'block';
-    } else {
-        itens.style.display = 'block';
-
-    }
+    document.querySelector(".navegacao").classList.toggle("ativado");
 }
 
 // botao de voltar pro topo da pag
