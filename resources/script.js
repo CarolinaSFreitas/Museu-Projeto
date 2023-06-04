@@ -27,3 +27,4 @@ function recarregarPagina() {
     location.reload(); // Recarrega a página
 }
 //
+

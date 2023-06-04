@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../vendors/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../vendors/css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/mnba-png.png" type="image/x-icon">
+    <title>Sobre o MNBA - Museu Nacional de Belas Artes</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo" style="cursor: pointer;">
+            <a href="./index.html">
+                <img src="./img/mnba-png.png" style="width: 110px; border-radius: 20%; margin-top: 10px;"
+                    alt="logo do museu nacional de belas artes">
+            </a>
+        </h1>
+
+        <nav class="nav1">
+            <ul class="nav-links">
+                <li><a href="#collection">Coleção</a></li>
+                <li><a href="#artists">Artistas</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#visitus">Nos Visite</a></li>
+            </ul>
+        </nav>
+
+        <!-- menu burgui -->
+
+        <menu id="itens">
+
+            <img src="./img/menu-burger.svg" width="50px" id="burger" onclick="openMenu()">
+
+            <ul class="navegacao">
+                <li><a href="#collection">Coleção</a></li>
+                <li><a href="#artists">Artistas</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#visitus">Nos Visite</a></li>
+            </ul>
+        </menu>
+
+        <!-- menu burg  -->
+
+        <a class="cta" href="https://wa.me/2132990600" target="_blank">Contato</a>
+    </header>
+
+    <button onclick="scrollToTop()" id="btnTopo" title="Voltar ao topo"><svg xmlns="http://www.w3.org/2000/svg"
+            width="35" height="35" fill="#800427" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+            <path
+                d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z" />
+        </svg></button>
+
+    <main>
+
+        <div class="sobre-txt">
+            <h2>O Museu Nacional de Belas Artes</h2>
+
+            <img src="./img/fachada-mnba.jpg" width="500px" alt="Fachada do MNBA"
+                title="Fachada do Museu Nacional de Belas Artes">
+
+            <p>O Museu Nacional de Belas Artes (MNBA) do Rio de Janeiro é uma instituição cultural importante, abrigando
+                uma vasta coleção de arte brasileira e internacional. Atualmente, o museu continua a desempenhar um
+                papel fundamental na preservação, exibição e pesquisa de obras de arte, contribuindo para a difusão da
+                cultura e da história da arte no Brasil.
+                O MNBA está localizado no centro histórico do Rio de Janeiro e ocupa um prédio de arquitetura imponente,
+                construído no século XIX. O museu conta com uma variedade de galerias e salas de exposição, onde são
+                exibidas pinturas, esculturas, desenhos e gravuras de artistas brasileiros e estrangeiros.
+                A coleção permanente do MNBA apresenta um panorama abrangente da produção artística brasileira ao longo
+                dos séculos, desde o período colonial até os dias atuais. Destacam-se obras de renomados artistas como
+                Portinari, Di Cavalcanti, Eliseu Visconti, Victor Meirelles, entre outros. Além disso, o museu também
+                abriga uma importante coleção de arte europeia, incluindo obras de mestres como Rembrandt, Monet, Rodin
+                e Picasso.
+                Além das exposições permanentes, o MNBA promove mostras temporárias, oferecendo ao público a
+                oportunidade de conhecer diferentes estilos, movimentos e períodos da arte. Essas exposições temporárias
+                abrangem tanto a arte brasileira quanto a internacional, contribuindo para uma programação dinâmica e
+                diversificada.
+                O museu também se dedica à pesquisa e à preservação das obras de arte. Possui um centro de documentação
+                que abriga um acervo bibliográfico especializado e uma coleção de arquivos, fotografias e documentos
+                relacionados à arte brasileira.
+            </p>
+
+            <h3>A Escola Nacional de Belas Artes</h3>
+
+            <p>A Escola Nacional de Belas Artes (ENBA) desempenhou um papel fundamental na história da arte e da
+                educação artística no Brasil. Fundada em 1826, no Rio de Janeiro, a ENBA foi uma das primeiras
+                instituições dedicadas ao ensino das artes visuais no país, influenciando gerações de artistas e
+                contribuindo para o desenvolvimento das artes plásticas brasileiras.
+                A ENBA teve origem como uma escola de arte vinculada à Academia Imperial de Belas Artes, criada por
+                decreto do imperador Dom João VI. Inicialmente, a academia tinha um enfoque mais voltado para a formação
+                de artistas e artesãos para atender às demandas do governo imperial. Com o passar dos anos, a
+                instituição foi se transformando em um centro de ensino de artes mais abrangente, abrindo espaço para a
+                experimentação e o desenvolvimento artístico.
+                <img src="./img/mnba-ESCOLA.jpg" width="480px"
+                    style="float: right; margin-left: 15px; margin-top: 10px;" alt="Escola Nacional de Belas Artes" title="Escola Nacional de Belas Artes">
+                A escola teve um papel importante na formação de artistas brasileiros durante o século XIX e o início do
+                século XX. A ENBA atraiu estudantes de diferentes regiões do Brasil, proporcionando-lhes uma educação
+                artística de alta qualidade e estimulando a troca de ideias e influências entre os jovens talentos.
+                Através de seus cursos e programas de ensino, a escola ajudou a estabelecer um cânone artístico
+                nacional, promovendo o desenvolvimento de uma identidade artística brasileira.
+                A ENBA também teve professores renomados que exerceram grande influência sobre a cena artística
+                brasileira. Nomes como Victor Meirelles, Eliseu Visconti, Rodolfo Amoedo e Zeferino da Costa, entre
+                outros, foram responsáveis por transmitir conhecimentos técnicos e estéticos aos estudantes, além de
+                incentivá-los a explorar novas abordagens artísticas. Esses mestres da ENBA deixaram um legado duradouro
+                na história da arte brasileira.
+                Além do ensino artístico, a ENBA desempenhou um papel relevante na organização de exposições e mostras
+                de arte. A escola foi responsável por promover eventos que divulgaram as produções dos alunos e
+                professores, bem como trazer exposições de artistas estrangeiros, contribuindo para a disseminação da
+                arte e o intercâmbio cultural.
+                Com o passar dos anos, a ENBA passou por transformações e adaptações às mudanças no panorama artístico e
+                educacional do Brasil. Em 1931, foi incorporada à recém-criada Universidade do Brasil, atual
+                Universidade Federal do Rio de Janeiro (UFRJ). Essa integração fortaleceu a ENBA como uma instituição
+                acadêmica de renome, permitindo uma maior diversificação de cursos e a incorporação de novas tendências
+                artísticas.
+                A ENBA continuou a formar gerações de artistas e a contribuir para o cenário artístico nacional. No
+                entanto, em 1975, a escola foi desativada como unidade acadêmica, encerrando uma era importante na
+                história da arte brasileira. Atualmente, a UFRJ abriga a Escola de Belas Artes, que carrega o legado da
+                ENBA e mantém viva a tradição de ensino e pesquisa nas artes visuais.
+            </p>
+
+            <h3>A arquitetura do MNBA</h3>
+
+            <p>
+                O autor do projeto foi o arquiteto espanhol Adolfo Morales de los Rios, que tomou, como modelo, o Museu
+                do Louvre, em Paris. Durante a construção, porém, o desenho seria alterado, possivelmente por Rodolfo
+                Bernardelli, então diretor da escola. Mais tarde, Archimedes Memoria acrescentou outras mudanças. O
+                resultado é uma construção eclética, com fachadas em diferentes estilos. A fachada principal na Avenida
+                Rio Branco é inspirada na renascença francesa, com frontões, colunatas e relevos em terracota
+                representando as grandes civilizações da Antiguidade, além de medalhões pintados por Henrique
+                Bernardelli com retratos dos integrantes da Missão Francesa e outros artistas brasileiros. As laterais
+                são mais simples, e fazem referência à Renascença italiana; possuem mosaicos parisienses com figuras de
+                arquitetos, pintores e teóricos da arte, como Vasari, Vitrúvio e Da Vinci. A fachada posterior é um
+                exemplo mais puro e austero do neoclassicismo, com relevos ornamentais de Edward Cadwell Spruce. Na
+                decoração interna, foram usados materiais nobres como mármores e mosaicos, estuques, cristais, cerâmicas
+                francesas e estatuária. O edifício foi tombado pelo Instituto do Patrimônio Histórico e Artístico
+                Nacional em 24 de maio de 1973.
+                <img src="./img/interno-mnba.jpg" width="310px"
+                    style="float: right; margin-left: 15px; margin-top: 10px;" alt="Escadaria do MNBA" title="Escadaria do MNBA">
+                O Museu Nacional de Belas Artes (MNBA) é conhecido como um tesouro cultural, abrigando uma vasta coleção
+                de obras de arte. No entanto, além de admirar as exposições e apreciar a arte, uma visita ao MNBA
+                oferece uma oportunidade única de explorar a arquitetura fascinante do prédio. Ao conhecer tanto o
+                interior quanto o exterior do museu, mergulhamos em uma jornada pela história da arquitetura,
+                descobrindo os detalhes e características que tornam o MNBA uma visita imperdível.
+                Uma obra-prima arquitetônica: Ao chegar ao MNBA, é impossível não se encantar com a imponente estrutura
+                do prédio. Construído no estilo eclético, o museu combina elementos neoclássicos e renascentistas,
+                criando uma fachada majestosa e grandiosa. O cuidado nos detalhes arquitetônicos revela a dedicação dos
+                construtores em criar um espaço que fosse, em si mesmo, uma obra de arte.
+                Explorando o interior: Adentrar o MNBA é como atravessar um portal para o passado. Os corredores
+                espaçosos, as escadarias ornamentadas e as salas ricamente decoradas nos transportam para uma época em
+                que a grandiosidade arquitetônica era uma expressão de poder e prestígio. A mistura de estilos
+                arquitetônicos em diferentes salas nos lembra da evolução das tendências ao longo dos anos.
+                <img src="./img/escadaria-mnba.jpeg" width="480px"
+                    style="float: left; margin-right: 15px; margin-top: 10px;" alt="Escadaria do MNBA" title="Escadaria do MNBA">
+                A história nas paredes: Cada parte do MNBA conta uma história. Os afrescos nos tetos, os vitrais
+                coloridos e os detalhes esculpidos nas colunas são testemunhos silenciosos da passagem do tempo e das
+                mudanças culturais. Ao caminhar pelos corredores, somos envoltos pela atmosfera histórica do lugar,
+                sentindo a presença dos artistas e arquitetos que contribuíram para a construção do museu.
+                A fusão entre arte e arquitetura: Ao visitar o MNBA, temos a oportunidade de testemunhar a harmonia
+                entre a arte exposta e o espaço que a abriga. As galerias foram projetadas para proporcionar uma
+                experiência única, com iluminação cuidadosamente planejada e disposição das obras de arte. A integração
+                entre arquitetura e arte cria um ambiente que eleva a experiência estética como um todo.
+                Visitar o Museu Nacional de Belas Artes não se trata apenas de apreciar a riqueza das exposições, mas
+                também de mergulhar na história da arquitetura. Ao explorar o prédio, tanto interna quanto externamente,
+                somos levados a uma jornada pela evolução dos estilos arquitetônicos e pela influência da arte na
+                concepção dos espaços. A experiência de conhecer o MNBA internamente e externamente proporciona uma
+                imersão completa na cultura, história da arte e patrimônio arquitetônico do Brasil.
+                A arquitetura do MNBA não é apenas um pano de fundo para as obras de arte, mas um elemento que enriquece
+                a visita, oferecendo uma compreensão mais profunda da história da arte e da cultura. Conhecer tanto o
+                interior quanto o exterior do museu é uma oportunidade única de explorar a evolução da arquitetura e
+                apreciar o esplendor do edifício em si.
+
+            <h3>Exposições e obras</h3>
+
+            O Museu Nacional de Belas Artes (MNBA) abriga uma vasta coleção de obras de arte que representam a riqueza e
+            diversidade da produção artística brasileira e internacional. As exposições presentes no museu oferecem uma
+            oportunidade única de explorar diferentes períodos, estilos e expressões artísticas, proporcionando uma
+            imersão na história e no contexto cultural.
+            A coleção permanente do MNBA abrange um extenso período da história da arte, desde o período colonial até os
+            dias atuais. Uma das principais características dessa coleção é a representatividade da arte brasileira, com
+            obras que revelam a diversidade étnica, cultural e social do país ao longo dos séculos.
+            Na coleção, encontramos pinturas, esculturas, desenhos, gravuras e outras formas de expressão artística.
+            Destacam-se obras de renomados artistas brasileiros, como Cândido Portinari, Di Cavalcanti, Eliseu Visconti,
+            Victor Meirelles, Anita Malfatti, Tarsila do Amaral e muitos outros. Cada obra carrega consigo uma narrativa
+            artística singular, seja retratando cenas históricas, paisagens brasileiras, retratos, naturezas-mortas ou
+            abordando questões sociais e políticas.
+
+            <img src="./img/interno3-mnba.jpg" width="480px" style="float: left; margin-right: 15px; margin-top: 10px;"
+                title="Exposição do MNBA" alt="Exposição MNBA">
+
+            Além da arte brasileira, o MNBA também abriga uma importante coleção de arte internacional. É possível
+            encontrar obras de grandes mestres europeus, como Rembrandt, Monet, Rodin, Picasso, Van Gogh, entre outros.
+            Essas obras representam diferentes períodos e movimentos artísticos, permitindo uma apreciação abrangente
+            das tendências e influências que moldaram a arte ao redor do mundo.
+            O museu também realiza exposições temporárias que complementam a coleção permanente, trazendo temáticas
+            específicas, artistas contemporâneos e exposições temáticas. Essas mostras temporárias são uma oportunidade
+            de explorar diferentes aspectos da arte e de se conectar com os debates e questões atuais do mundo
+            artístico.
+            Além das obras expostas, o MNBA também se destaca pela conservação e pesquisa. O museu mantém um laboratório
+            de restauração e conservação, onde especialistas trabalham na preservação das obras de arte, garantindo sua
+            integridade e durabilidade ao longo do tempo. Além disso, o MNBA possui um centro de documentação e
+            pesquisa, que abriga um acervo bibliográfico especializado e uma coleção de arquivos, fotografias e
+            documentos relacionados à história da arte brasileira.
+            O MNBA busca envolver o público por meio de atividades educativas, como visitas guiadas, palestras, cursos e
+            oficinas. Essas iniciativas visam promover a apreciação da arte, estimular a reflexão e o diálogo, além de
+            oferecer oportunidades de aprendizado e formação para estudantes e artistas em ascensão.
+            Ao visitar o Museu Nacional de Belas Artes, os visitantes têm a chance de mergulhar em um universo artístico
+            fascinante. Cada obra exposta conta uma história, representa uma expressão artística única e permite uma
+            conexão com o passado, o presente e o futuro da arte. Através das exposições, o público tem a oportunidade
+            de apreciar a beleza, a criatividade e a diversidade da produção artística, expandindo seus horizontes
+            culturais e estéticos.
+
+            <img src="./img/mnba-exp.jpg" width="510px" style="float: right; margin-left: 15px; margin-top: 10px;"
+            title="Exposição do MNBA" alt="Exposição MNBA" >
+
+            As exposições do MNBA são cuidadosamente organizadas para oferecer uma experiência imersiva e enriquecedora
+            aos visitantes. Ao percorrer as galerias, é possível observar a evolução da arte brasileira ao longo dos
+            séculos e apreciar os diferentes estilos, técnicas e temáticas explorados pelos artistas.
+            Entre as obras expostas, destacam-se as pinturas, que constituem uma parte significativa da coleção do
+            museu. Podemos encontrar obras que retratam paisagens exuberantes do Brasil, cenas históricas, retratos de
+            figuras importantes da história brasileira, além de composições abstratas e contemporâneas que desafiam as
+            convenções artísticas.
+            A escultura também desempenha um papel fundamental nas exposições do MNBA. Esculturas em bronze, mármore e
+            outros materiais encantam os visitantes com sua expressividade e poder de representação. Podemos encontrar
+            desde esculturas clássicas e acadêmicas até obras mais contemporâneas e experimentais, que exploram novas
+            formas e conceitos.
+            Outro destaque das exposições são as gravuras e desenhos, que oferecem uma visão mais íntima do processo
+            criativo dos artistas. Essas obras revelam os estudos preparatórios, as linhas e texturas cuidadosamente
+            trabalhadas, bem como a habilidade técnica dos artistas ao capturar formas, sombras e detalhes minuciosos.
+            Além das obras em si, as exposições do MNBA frequentemente são acompanhadas de informações contextuais e
+            curadoriais, que fornecem uma perspectiva histórica e crítica sobre as obras e os artistas. Isso possibilita
+            ao visitante uma compreensão mais profunda das peças expostas e uma apreciação mais ampla das influências
+            culturais, sociais e estéticas que permearam a produção artística ao longo do tempo.
+            O Museu Nacional de Belas Artes também realiza exposições temporárias que trazem artistas contemporâneos,
+            tendências emergentes e temas relevantes para o debate artístico atual. Essas mostras temporárias enriquecem
+            ainda mais a programação do museu, permitindo um diálogo entre o passado e o presente, e estimulando
+            reflexões sobre a arte e a sociedade contemporânea.
+
+            <img src="./img/mnba-exp2.webp" width="480px" style="float: left; margin-right: 15px; margin-top: 10px;"
+            title="Exposição do MNBA" alt="Exposição MNBA">
+
+            Uma exposição no MNBA é cuidadosamente organizada para destacar um tema específico, um período artístico, um
+            movimento ou um grupo de artistas. Ela é concebida como uma narrativa visual, onde as obras são selecionadas
+            e dispostas de forma a criar um diálogo entre si. As exposições proporcionam ao público uma experiência
+            imersiva, permitindo uma apreciação mais aprofundada da arte e sua relação com a história, a cultura e as
+            questões contemporâneas.
+            Por outro lado, uma visita ao MNBA oferece a oportunidade de explorar a coleção permanente do museu, que
+            abrange um amplo espectro da história da arte. Durante uma visita, os visitantes podem percorrer as galerias
+            do museu e apreciar as obras de diferentes artistas, estilos e períodos. Essa experiência permite um
+            panorama abrangente da arte brasileira e internacional, desde as pinturas e esculturas clássicas até as
+            formas de expressão mais contemporâneas.
+            Seja por meio de uma exposição ou de uma visita ao Museu Nacional de Belas Artes, o objetivo é proporcionar
+            aos visitantes uma experiência enriquecedora, estimulante e inspiradora, permitindo a apreciação da arte e a
+            reflexão sobre o seu significado e impacto na sociedade.
+            É importante ressaltar que o MNBA é um espaço dinâmico, onde as exposições são periodicamente renovadas e
+            atualizadas. Isso significa que cada visita ao museu é única, proporcionando novas descobertas e surpresas a
+            cada retorno.
+            Em resumo, as obras e exposições do Museu Nacional de Belas Artes oferecem uma jornada pela história da
+            arte, desde suas raízes até as expressões mais contemporâneas. São uma fonte de inspiração, conhecimento e
+            apreciação estética, convidando os visitantes a explorar a diversidade cultural, os talentos artísticos e as
+            narrativas expressas através das obras expostas.
+            </p>
+        </div>
+    </main>
+
+    <!-- footer inicio -->
+    <footer>
+        <div id="footer-content">
+            <div>
+                <img src="./img/mnba-png.png" width="110px" style="margin-top: 15px; margin-left: 80px;"
+                    alt="Logo Museu Nacional de Belas Artes">
+            </div>
+
+            <ul>
+                <h6>Localização</h6>
+                <p>
+                    Av. Rio Branco, 199 <br> Centro, Rio de Janeiro <br> Rio de Janeiro
+                </p>
+            </ul>
+
+            <ul>
+                <h6>Horários</h6>
+                <p>
+                    10h às 18h | Ter. - Sex. <br> 12h às 17h | Sáb., Dom. e Feriados <br> Fechado | Seg.
+                </p>
+            </ul>
+
+            <ul>
+                <h6 style="color: #252525">Redes Sociais</h6>
+                <div id="footer-social-media">
+                    <a href="https://www.instagram.com/mnbario" class="footer-link" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16" style="color: #A80534;">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.facebook.com/MNBARio/" class="footer-link" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16" style="color: #A80534;">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.youtube.com/@MNBARio" class="footer-link" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-youtube" viewBox="0 0 16 16" style="color: #A80534;">
+                            <path
+                                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                        </svg>
+                    </a>
+                </div>
+            </ul>
+        </div>
+
+        <div id="footer-copyright">
+            2023 © Museu Nacional de Belas Artes. Todos os direitos reservados.
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
