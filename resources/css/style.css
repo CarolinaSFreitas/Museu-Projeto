@@ -898,6 +898,7 @@ section {
 .acervo-on span {
     text-decoration: underline;
     color: #2d53fd;
+    margin-bottom: 25px;
 }
 
 #img-sec p {
