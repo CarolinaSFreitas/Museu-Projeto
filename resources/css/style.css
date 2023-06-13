@@ -9,6 +9,7 @@ html {
     color: #252525;
     text-rendering: optimizeLegibility;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 *::selection {
