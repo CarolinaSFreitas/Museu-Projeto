@@ -135,7 +135,6 @@ header {
     background-color: #252525;
 }
 
-
 .cards {
     display: flex;
     flex-direction: row;
@@ -358,7 +357,6 @@ header {
     font-weight: 400;
     color: #f5f5f5;
     margin-top: -18px;
-
 }
 
 svg {
