@@ -446,7 +446,7 @@ footer h6 {
     border: none;
     padding: 8px 20px;
     margin-bottom: 20px;
-    margin-top: -90px;
+    margin-top: -60px;
     margin-right: 100px;
     background-color: #A80534;
     border-radius: 25px;
@@ -568,6 +568,7 @@ menu li {
         justify-content: center;
         align-items: center;
         margin-left: 35%;
+        margin-top: 15px;
         margin-bottom: 20px;
     }
 
@@ -1091,7 +1092,20 @@ form button:hover {
     box-shadow: 0 0 4px #888;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1030px) {
+    #burger {
+        visibility: visible;
+    }
+
+    menu {
+        display: block;
+        width: fit-content;
+    }
+
+    .local {
+        margin: 0px 15px 20px 15px ;
+    }
+
     .tabela {
         overflow-x: auto;
         width: 90%;
@@ -1129,7 +1143,6 @@ form button:hover {
     .infospt2 {
         display: block;
         align-items: center;
-        background-color: #252525;
     }
 
     form {
@@ -1141,7 +1154,6 @@ form button:hover {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-color: #252525;
     flex-wrap: wrap;
 }
 
