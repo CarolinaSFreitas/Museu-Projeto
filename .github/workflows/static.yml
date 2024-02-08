@@ -34,7 +34,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
-          target-folder: 'resources' #diretório onde o index.html está localizado
+          target-folder: 'Museu-Projeto/resources' #diretório onde o index.html está localizado
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
